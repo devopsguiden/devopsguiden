@@ -26,7 +26,7 @@ Källkod, Kända sårbarheter
 Upptäcka sårbarheter i källkod
 
   
-## Depå för versionshanterad källkod (code repository)
+## Versionshanterad källkod (ex git repo)
 **Funktioner:**
 Versionshantering av källkod, Förgrening och integrering, Gemensam kodgranskning
 
