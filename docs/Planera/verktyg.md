@@ -35,7 +35,7 @@ Mjukvarubibliotek, OS, licenser, supporterade versioner
 **Input:**
 IT assets (mjukvara), licenser, mjukvarubibliotek, operativsystem, vilka versioner använder vi
 
-**Output:**  
+**Output:**
 IT-asset inventarie
 
 
@@ -49,7 +49,7 @@ Central databas som används av flera system (konfiguration, IT assets, incident
 **Input:**
 Information om IT hårdvara och mjukvara
 
-**Output:**  
+**Output:**
 Konfiguration
 
 
@@ -63,7 +63,7 @@ Förståelse för projektets fortgång, optimera resursallokering
 **Input:**
 Ärenden, schema, resursallokering
 
-**Output:**  
+**Output:**
 Projektplan
 
 
@@ -77,7 +77,7 @@ Oberoende av programmeringsspråk, Visualiserar systemdesign
 **Input:**
 Användarkrav, design idéer
 
-**Output:**  
+**Output:**
 Designdokument, testplanering, plan för drift/testmiljö
 
 
@@ -91,7 +91,7 @@ Möjliggör för arkitekter/utvecklare att identifiera och åtgärda potentiella
 **Input:**
 Systemdesign
 
-**Output:**  
+**Output:**
 Potentiella hot och åtgärder
 
 
@@ -105,5 +105,5 @@ Tillse att den data som krävs av systemet representeras/dokumenteras på ett ko
 **Input:**
 Systemkrav, affärslogik
 
-**Output:**  
+**Output:**
 Datamodell

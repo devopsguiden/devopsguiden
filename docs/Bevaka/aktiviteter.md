@@ -94,17 +94,3 @@ Loggar, Varningar och larm
 
 **Verktygsbehov:**
 Databasövervakning, Säkerhetsgranskning av databas, Ärendehanteringssystem, Larmsättning och notifiering, Instrumentpanel över driftmiljö
-
-
-## 
-**Beskrivning:**
-
-
-**Input:**
-
-
-**Output:**
-
-
-**Verktygsbehov:**
-
