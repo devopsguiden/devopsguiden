@@ -1,4 +1,4 @@
-## Enhetstestning
+## Unit testing
 **Beskrivning:**
 Assistera utveckling och körning av enhetstester, Enhetstester skrivs i samma programspråk som applikationen utvecklats i
 
@@ -12,12 +12,12 @@ Testrapport för att avgöra om specifika enheter i källkoden presterar enligt 
 Verktyg för testsvit, testtäckningsverktyg
 
 
-## DAST - verktyg för dynamiska säkerhetstestning
+## DAST - verktyg för dynamisk säkerhetstestning
 **Beskrivning:**
 Utför DAST eller IAST-tester
 
 **Input:**
-Exekvera applikationen och underliggande OS, slumpmässig input
+Exekvera applikationen och underliggande OS, slumpmässig (fuzzy) input 
 
 **Output:**
 Sårbarheter, svagheter enligt statisk/dynamisk kodanalys och rekommenderade åtgärdspunkter 
@@ -26,12 +26,12 @@ Sårbarheter, svagheter enligt statisk/dynamisk kodanalys och rekommenderade åt
 DAST eller IAST-verktyg
 
 
-## Integrationstestning
+## Integrationstest
 **Beskrivning:**
-Utveckla integrationstester för att testa flera mjukvarukomponenter/tjänster exempelvis externt API eller databas) och granska hur väl interationen fungerar däremellan
+Utveckla integrationstester för att testa flera mjukvarukomponenter/tjänster exempelvis externt API eller databas) och granska hur väl interaktionen fungerar däremellan
 
 **Input:**
-Skript för integrationstest, de enheter av koden som testas, testdata och förväntad output, 
+Skript för integrationstest, de enheter av koden som testas, testdata och förväntad output
 
 **Output:**
 Testrapport för att avgöra om de integrerade komponenterna i applikationen presterar enligt krav 
@@ -40,7 +40,7 @@ Testrapport för att avgöra om de integrerade komponenterna i applikationen pre
 Verktyg för testsvit
 
 
-## Systemtestning
+## Systemtest
 **Beskrivning:**
 För systemtest nyttjas en svit av verktyg för att förstå hur väl interaktionen fungerar mellan hela systemet och även interaktionen med användare och externa system
 
@@ -48,13 +48,13 @@ För systemtest nyttjas en svit av verktyg för att förstå hur väl interaktio
 Skript för systemtest, mjukvarusystemet och externa beroenden, Testa inputdata och förväntad output 
 
 **Output:**
-Testresultat och avgör om systemet fungerar enligt förväntningar
+Testresultat och förutsättningarna för att avgöra om systemet fungerar enligt förväntningar
 
 **Verktygsbehov:**
 Verktyg för testsvit  
 
 
-## Manuell säkerhetstestning
+## Manuell säkerhetstest
 **Beskrivning:**
 Ex penetrationstest där cyberattacker simuleras gentemot systemet. CI/CD automatiserar inte testet men resultat från testen kan användas som kontrollpunkter i CI/CD
 
@@ -68,7 +68,7 @@ Sårbarhetsrapport och rekommenderade åtgärdspunkter
 Diverse verktyg och skript
 
 
-## Prestandatestning
+## Prestandatest
 **Beskrivning:**
 Säkerställ att applikationer preseterar väl vid förväntat belastning. Fokus för testet är applikationens responstid, pålitlighet, resursanvändning och möjligheten att anpassa kapacitet efter belastning
 
@@ -82,7 +82,7 @@ Prestandaresultat
 Verktyg för testsvit, verktyg för att generera testdata
 
 
-## Regressiontestning
+## Regressiontest
 **Beskrivning:**
 En typ av test med avsikt att säkerställa att nyligen gjorda ändringar i koden/applikationen inte påverkar befintlig funktionalitet
 
@@ -96,7 +96,7 @@ Testrapport
 Verktyg för testsvit
 
 
-## Acceptanstestning
+## Acceptanstest
 **Beskrivning:**
 Utför test som ska säkerställa att systemet är redo för driftsättning, Testar ex tillgänglighet och användbarhet, redundans/failover, systemets förmåga till återhämtning, stresstest, säkerhets och penetrationstest, Kompatibilitet och integration med andra system, Hur lätt blir det att förvalta och supportera systemet?
 
@@ -210,7 +210,7 @@ Upptäckter av sårbarheter, Rekommenderade åtgärder
 Spåra scanningsresultat från test och säkerhetsanalys, Ta fram åtgärdspunkter, Ta go/no go-beslut för nästa fas
 
 **Input:**
-Testresultat, rapport fårn säkerhetscanning och kontroll av efterlevnad enligt riktlinjer 
+Testresultat, rapport från säkerhetscanning och kontroll av efterlevnad enligt riktlinjer 
 
 **Output:**
 Versionshanterade testresultat, Åtgärdspunkter, Ta go/no go-beslut

@@ -142,12 +142,12 @@ Riktlinjer i SCAP-format
 **Output:**
 Rapport gällande efterlevnad av riktlinjer
   
-## Verktyg: Efterlevnad av säkerhetsriktlinjer
+## Verktyg för efterlevnad av säkerhetsriktlinjer
 **Funktioner:**
 Beror på organisationens säkerhetsriktlinjer.
 
 **Fördelar:**
-Säkerhetsriktlinjer är inte blott ett dokument bra formuleringar.
+Säkerhetsriktlinjer är inte blott ett dokument med bra formuleringar.
 
 **Input:**
 Containeravbilder, policy as code
@@ -156,7 +156,7 @@ Containeravbilder, policy as code
 Sårbarhetsrapport och rekommenderade åtgärder
 
   
-## Vektyg: Test av nätverkssäkerhet
+## Vektyg för test av nätverkssäkerhet
 **Funktioner:**
 Simulera realistisk nätverkstrafik, DDOS, attacker, slumpmässiga anrop
 
