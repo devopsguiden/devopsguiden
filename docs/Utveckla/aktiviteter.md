@@ -14,24 +14,24 @@ Integrerad utvecklingsmiljö (IDE)
 
 ## Utveckling av Infrastruktur som kod
 **Beskrivning:**
-Kodifiering av infrastrukturkomponenter och uppskapande av skript
+"Kodifiering" av infrastrukturkomponenter och skapande av skript
 
 **Input:**
-Källkodsinmatning
+Källkod eller data
 
 **Output:**
-Källkod
+Källkod eller data
 
 **Verktygsbehov:**
 Integrerad utvecklingsmiljö (IDE)
 
 
-## Utveckla kodifierad säkerhetsefterlevnad (policy as code)
+## Utveckla kodifierad efterlevnad av riktlinjer (policy as code)
 **Beskrivning:**
 Säkerställ efterlevnad av riktlinjer, utveckla skript
 
 **Input:**
-Källkodsinmatning
+Källkod
 
 **Output:**
 Källkod
@@ -79,28 +79,26 @@ Källkod
 Versionshanterad källkod
 
 **Verktygsbehov:**
-Depå för versionshanterad källkod (code repository)
+git repo (eller motsvarande) för versionshanterad källkod
 
 
 ## Scanning av incheckad källkod
 **Beskrivning:**
-Granskar kodändringar för att upptäcka känslig information innan incheckning  av koden, Om misstänkta sårbarheter upptäcks notifieras utvecklaren och incheckning blockeras
+Granskar kodändringar för att upptäcka känslig information innan incheckning av koden, Om misstänkta sårbarheter upptäcks notifieras utvecklaren och incheckning blockeras
 
 **Input:**
 Lokalt incheckad källkod
 
 **Output:**
-Upptäckt av sårbarheter i källkod 
-och varningar
+Upptäckt av sårbarheter i källkod och varningar
 
 **Verktygsbehov:**
-Säkerhetsplugin till versionshanteringssystem 
-(git) eller IDE
+Säkerhetsplugin till versionshanteringssystem (ex git) eller IDE
 
 
 ## Kodgranskning
 **Beskrivning:**
-Genomför granskning av all källkod, Även parprogrammering är tillämpbar
+Genomför granskning av all källkod. Ex mha parprogrammering och/eller mha verktyg
 
 **Input:**
 Källkod
