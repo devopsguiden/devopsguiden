@@ -1,1 +1,27 @@
-site_name: My Docs
+site_name: DevOps-Guiden
+nav:
+    - Hem: index.md
+    - Planera:
+      -  Aktiviteter: Planera/aktiviteter.md
+      -  Verktyg: Planera/verktyg.md
+    - Utveckla:
+      -  Aktiviteter: Utveckla/aktiviteter.md
+      -  Verktyg: Utveckla/verktyg.md
+    - Paketera:
+      -  Aktiviteter: Paketera/aktiviteter.md
+      -  Verktyg: Paketera/verktyg.md
+    - Testa:
+      -  Aktiviteter: Testa/aktiviteter.md
+      -  Verktyg: Testa/verktyg.md
+    - Leverera:
+      -  Aktiviteter: Leverera/aktiviteter.md
+      -  Verktyg: Leverera/verktyg.md
+    - Driftsätt:
+      -  Aktiviteter: Driftsätt/aktiviteter.md
+      -  Verktyg: Driftsätt/verktyg.md
+    - Förvalta:
+      -  Aktiviteter: Förvalta/aktiviteter.md
+      -  Verktyg: Förvalta/verktyg.md
+    - Bevaka:
+      -  Aktiviteter: Bevaka/aktiviteter.md
+      -  Verktyg: Bevaka/verktyg.md
