@@ -1,5 +1,3 @@
-# Aktiviteter
-
 ## Loggning
 **Beskrivning:**
 Logga skeenden i systemet

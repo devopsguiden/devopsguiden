@@ -1,5 +1,3 @@
-# Aktiviteter
-
 ## Release go / no- go beslut
 **Beskrivning:**
 Säkerställ efterlevnad av riktlinjer, besluta huruvida artefakt/paket är redo för driftsättning i produktionsmiljö 

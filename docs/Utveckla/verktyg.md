@@ -1,6 +1,3 @@
-# Verktyg
-
-  
 ## Integrerad Utvecklingsmiljö (IDE)
 **Funktioner:**
 Integrerad utvecklingsmiljö, Intelligent automatisk kodkomplettering, Kompilator eller kodtolk, Debugger, Byggautomation (integration med byggverktyg)

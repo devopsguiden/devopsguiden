@@ -1,6 +1,3 @@
-  
-# Verktyg
-
 ## Testverktyg under utveckling 
 **Funktioner:**
 Hjälpmedel för hantering av testscenarion, testskript och utveckling av testdata. Olika verktyg beroende på typ av test och typ av applikation.

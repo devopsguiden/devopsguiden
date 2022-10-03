@@ -1,5 +1,3 @@
-# Aktiviteter
-
 ## Systemutveckling
 **Beskrivning:**
 Skapande av källkod

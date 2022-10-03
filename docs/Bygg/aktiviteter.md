@@ -1,5 +1,3 @@
-# Aktiviteter
-
 ## Bygg
 **Beskrivning:**
 Kompilera och länka

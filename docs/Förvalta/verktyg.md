@@ -1,6 +1,3 @@
-# Verktyg
-
-  
 ## Hantering av säkerhetskopiering
 **Funktioner:**
 Säkerhetskopiering, Snapshot av komponenter (VM eller container)

@@ -24,4 +24,3 @@ nav:
     - Bevaka:
       -  Aktiviteter: Bevaka/aktiviteter.md
       -  Verktyg: Bevaka/verktyg.md
-#TODO: Skapa upp en egen sida för Bygg så att Bygg och Paketera är separerade. Se Playbook som också separerar dessa i två avsnitt.

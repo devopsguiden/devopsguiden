@@ -1,6 +1,3 @@
-# Verktyg
-
-  
 ## Loggning
 **Funktioner:**
 Logga alla händelser som initierats av användare, nätverk, applikation och andra aktiviteter

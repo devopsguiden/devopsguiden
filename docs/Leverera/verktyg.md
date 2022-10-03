@@ -1,6 +1,3 @@
-# Verktyg
-
-  
 ## Verktyg: releasepaketering
 **Funktioner:**
 Paketera binära artefakter, container eller VM-avbilder, konfigurationsskript för infrastruktur, testskript, dokumentation, releaseanteckningar, 

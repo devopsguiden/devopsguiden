@@ -1,5 +1,3 @@
-# Aktiviteter
-
 ## Nedladdning av artefakter
 **Beskrivning:**
 Ladda ner nya levererade releaseartefakter från central databas för artefakter (ex Gitlabs containerregister)

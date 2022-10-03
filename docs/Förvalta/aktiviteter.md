@@ -1,5 +1,3 @@
-# Aktiviteter
-
 ## Säkerhetskopiering
 **Beskrivning:**
 Säkerhetskopiering av data och systemet

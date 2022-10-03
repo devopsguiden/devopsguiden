@@ -1,5 +1,3 @@
-# Aktiviteter
-
 ## Enhetstestning
 **Beskrivning:**
 Assistera utveckling och körning av enhetstester, Enhetstester skrivs i samma programspråk som applikationen utvecklats i

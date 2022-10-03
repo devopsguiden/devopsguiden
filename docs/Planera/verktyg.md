@@ -1,5 +1,3 @@
-# Verktyg
-
 ## Samarbetssystem (ex Office 365)
 **Funktioner:**
 Videokonferens, chatt, gruppkalender, fildelning etc

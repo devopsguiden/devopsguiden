@@ -1,6 +1,3 @@
-# Verktyg
-
-  
 ## Byggverktyg
 **Funktioner:**
 Integrering med IDE, Kodstilsgranskning (linting)

@@ -1,5 +1,3 @@
-# Aktiviteter
-
 ## Processkartläggning
 **Beskrivning:**
 Dokumentera och kartlägg vilka processer och aktiviteter som krävs för varje projekt

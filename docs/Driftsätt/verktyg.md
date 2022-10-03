@@ -1,6 +1,3 @@
-# Verktyg
-
-  
 ## Styrsystem för Virtualisering
 **Funktioner:**
 Styrning av VM-instanser, bevakning av resurser
