@@ -33,7 +33,7 @@ Mjukvarubibliotek, OS, licenser, supporterade versioner
 Ökad medvetenhet
 
 **Input:**
-IT assets (mjukvara), licenser, mjukvarubibliotek, operativsystem, vilka versioner använder vi
+IT-assets (mjukvara), licenser, mjukvarubibliotek, operativsystem, mjukvaruversioner
 
 **Output:**
 IT-asset inventarie
@@ -44,7 +44,7 @@ IT-asset inventarie
 Kartlägga beroenden, integration med andra verktyg, granskning
 
 **Fördelar:**
-Central databas som används av flera system (konfiguration, IT assets, incidenthantering)
+Central databas som används av flera system (konfiguration, IT-assets, incidenthantering)
 
 **Input:**
 Information om IT hårdvara och mjukvara
@@ -75,7 +75,7 @@ Hjälp vid kravinsamling, design av systemarkitektur, komponent- och gränssnitt
 Oberoende av programmeringsspråk, Visualiserar systemdesign
 
 **Input:**
-Användarkrav, design idéer
+Användarkrav, designidéer
 
 **Output:**
 Designdokument, testplanering, plan för drift/testmiljö
@@ -83,7 +83,7 @@ Designdokument, testplanering, plan för drift/testmiljö
 
 ## Riskanalysverktyg
 **Funktioner:**
-Dokumentera design utifrån säkerhet, identifiera potentiella säkerhetsproblem, Bedömning av sårbarhet utifrån vanligt förekommande attacker, föreslå och resursstyr åtgärder
+Dokumentera design utifrån säkerhet, identifiera potentiella säkerhetsproblem, Bedömning av sårbarheter utifrån vanligt förekommande attacker, föreslå och resursstyr åtgärder
 
 **Fördelar:**
 Möjliggör för arkitekter/utvecklare att identifiera och åtgärda potentiella säkerhetsrisker snabbt

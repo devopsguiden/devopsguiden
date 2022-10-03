@@ -125,7 +125,7 @@ Assets för IT-infrastruktur, mjukvarukomponenter, grundkrav för kod och dokume
 Konfigurationsuppgifter
 
 **Verktygsbehov:**
-CMDB - databas för konfigurationsfiler/data, Depå för versionshanteradd källkod, Artefaktrepositorie, Samarbetssystem (ex Office 365)
+CMDB - databas för konfigurationsfiler/data (ex. Gitlab), versionshanteradd källkod i ett git repo (eller motsvarande) och i en central samarbetsplattform för versionshanterad kod (ex Gitlab eller GitHub, Databas för artefakter så som containers (kan också vara Gitlab), Samarbetssystem (ex Office 365)
 
 
 ## Hotmodellering
