@@ -17,7 +17,7 @@ Hantering av säkerhetskopiering, Automationsverktyg för databas
 Skala VM/containers som grupp, Dynamisk resursallokering efter riktlinjer/behov 
 
 **Input:**
-Mätning av prestanda gentemot efterfrågan i realtid, Riktlinjer för att skala upp/ned resursallokering
+Mätning av prestanda gentemot efterfrågan (i realtid), Riktlinjer för att skala upp/ned resursallokering
 
 **Output:**
 Optimerad resursallokering

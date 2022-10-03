@@ -11,7 +11,7 @@ Förbättra möjlighet till återhämtning vid missförhållanden
 **Output:**
 Säkerhetskopierad data, System VM eller snapshot av container 
   
-## Instrumentpanel (dashboard) över driftmiljö (ex Grafana)
+## Instrumentpanel (dashboard) över driftmiljö (som ex Grafana)
 **Funktioner:**
 En visuell överblick av driftmiljön, larmsättning och åtgärder 
 
