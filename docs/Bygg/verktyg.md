@@ -43,8 +43,7 @@ Container enligt OCI-standarden
 Container registry
 
 **Fördelar:**
-Separera hantering av kompilerade paket och/eller containers från hanteringen av källkoden för att undvika att extern part har åtkomst till versionshanteringssystemet, 
-Förbättrad stabilitet av byggprocesser med minskat beroende externa lagringssystem för artefakter
+Separera hantering av kompilerade paket och/eller containers från hanteringen av källkoden för att undvika att extern part har åtkomst till versionshanteringssystemet, Förbättrad stabilitet av byggprocesser med minskat beroende av externa lagringssystem för artefakter
 
 **Input:**
 Artefakter/Containers
@@ -54,7 +53,7 @@ Versionshanterade artefakter
   
 ## Verktyg för statisk säkerhetsanalys (SAST)
 **Funktioner:**
-SAST analyserar applikationens statiska kod så som källkod, byte kod och binär kod när applikationen exekveras för att upptäckta scenarion som kan visa på svagheter
+SAST analyserar applikationens statiska kod så som källkod, bytecode och binär kod när applikationen exekveras för att upptäckta scenarion som kan visa på svagheter
 
 **Fördelar:**
 Upptäck sårbarheter tidigt, Kontinuerlig bedömning under pågående utveckling
@@ -70,7 +69,7 @@ Rapport från analys och rekommenderade åtgärder
 Identifiera sårbarheter i beroenden baserat på publicerade sårbarheter
 
 **Fördelar:**
-Höj applikationens säkerhet, Hantera riskmoment i materialflödet (supply chain)
+Höj applikationens säkerhet, Hantera riskmoment i värdekedjan (supply chain)
 
 **Input:**
 Lista över mjukvarubibliotek som applikationen är beroende av

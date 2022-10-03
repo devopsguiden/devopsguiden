@@ -9,7 +9,7 @@ Källkod, beroenden
 Binära artefakter
 
 **Verktygsbehov:**
-Byggverktyg/byggserver, Kodstilsgranskning (linting-plugin), Artefaktregister/containerregister
+Byggverktyg/byggserver, Kodstilsgranskning (linting-plugin), Containerregister (eller andra databaser för artefakt)
 
 
 ## Verktyg för scanning och test av applikationens säkerhet 
@@ -56,10 +56,10 @@ Byggverktyg/byggserver för containeravbilder
 
 ## Releasepaketering
 **Beskrivning:**
-Paketera binära artefakter, container- eller VM-avbilder, Konfigurationsskript för infrastruktur, Testskript, Dokumentation, Checksummor, Digitala signaturer, Release notes som paket
+Paketera binära artefakter, container- eller VM-avbilder, Konfigurationsskript för infrastruktur, Testskript, Dokumentation, Checksummor, Digitala signaturer, Release notes
 
 **Input:**
-Binära artefakter, skript, Dokumentation, Release anteckningar
+Binära artefakter, skript, Dokumentation, Releaseanteckningar
 
 **Output:**
 Paketerad release med checksumma och digital signatur
