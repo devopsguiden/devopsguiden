@@ -84,7 +84,7 @@ Versionshanterad källkod
 Depå för versionshanterad källkod (code repository)
 
 
-## Scanning av inchecka källkod
+## Scanning av incheckad källkod
 **Beskrivning:**
 Granskar kodändringar för att upptäcka känslig information innan incheckning  av koden, Om misstänkta sårbarheter upptäcks notifieras utvecklaren och incheckning blockeras
 

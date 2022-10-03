@@ -1,6 +1,5 @@
 site_name: DevOps-Guiden
 nav:
-    - Hem: index.md
     - Planera:
       -  Aktiviteter: Planera/aktiviteter.md
       -  Verktyg: Planera/verktyg.md
