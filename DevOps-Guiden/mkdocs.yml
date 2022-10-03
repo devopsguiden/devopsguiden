@@ -7,13 +7,13 @@ nav:
     - Utveckla:
       -  Aktiviteter: Utveckla/aktiviteter.md
       -  Verktyg: Utveckla/verktyg.md
-    - Paketera:
-      -  Aktiviteter: Paketera/aktiviteter.md
-      -  Verktyg: Paketera/verktyg.md
+    - Bygg:
+      -  Aktiviteter: Bygg/aktiviteter.md
+      -  Verktyg: Bygg/verktyg.md
     - Testa:
       -  Aktiviteter: Testa/aktiviteter.md
       -  Verktyg: Testa/verktyg.md
-    - Leverera:
+    - Leverera/Paketera:
       -  Aktiviteter: Leverera/aktiviteter.md
       -  Verktyg: Leverera/verktyg.md
     - Driftsätt:
@@ -25,3 +25,4 @@ nav:
     - Bevaka:
       -  Aktiviteter: Bevaka/aktiviteter.md
       -  Verktyg: Bevaka/verktyg.md
+#TODO: Skapa upp en egen sida för Bygg så att Bygg och Paketera är separerade. Se Playbook som också separerar dessa i två avsnitt.
