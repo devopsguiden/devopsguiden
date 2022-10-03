@@ -6,7 +6,7 @@ Säkerställ efterlevnad av riktlinjer, besluta huruvida artefakt/paket är redo
 Designdokumentation, Testrapporter, Säkerhetstester och rapporter, Artefakter
 
 **Output:**
-Go / no-go beslut; Artefakter taggas med release tagg om  go-beslut tagits
+Go / no-go beslut; Artefakter taggas med release tagg om go-beslut tagits
 
 **Verktygsbehov:**
 CI/CD-server/orkestrator
@@ -20,15 +20,15 @@ Ladda upp releaseartefakter till artefaktrepositorie
 Release-paket
 
 **Output:**
-Ny release i artefaktrepositorie (ex containerregister)
+Ny release i ex ett containerregister (eller annan databas för releasepaket)
 
 **Verktygsbehov:**
-Artefaktrepositorie (ex containerregister)
+Container registry så som Harbour eller det inbyggda i Gitlab (eller motsvarande)
 
 
 ## Replicera artefakter
 **Beskrivning:**
-Replicera nya releaseartefakter till regionala containerregister
+Replicera nya releasepaket till regionala containerregister (för storskalig produktion som spänner över stora geografiska områden)
 
 **Input:**
 Artefakt/container
@@ -37,4 +37,4 @@ Artefakt/container
 Artefakter i alla regionala containerregister
 
 **Verktygsbehov:**
-Containerregister
+Multipla containerregister i olika geografiska områden

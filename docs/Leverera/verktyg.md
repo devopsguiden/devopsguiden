@@ -1,7 +1,7 @@
 ## Verktyg: releasepaketering
 **Funktioner:**
 Paketera binära artefakter, container eller VM-avbilder, konfigurationsskript för infrastruktur, testskript, dokumentation, releaseanteckningar, 
-generera checksumma och digital signaturför paketet
+generera checksumma och digital signatur för paketet
 
 **Fördelar:**
 N/A
