@@ -2,10 +2,10 @@
 
 ## Processkartläggning
 **Beskrivning:**
-Dokumentera och kartlägg vilka processer och aktiviteter som krävs för varje projektet
+Dokumentera och kartlägg vilka processer och aktiviteter som krävs för varje projekt
 
 **Input:**
-Systemdesign, Releaseplanering/schemaläggning "
+Systemdesign, Releaseplanering/schemaläggning
 
 **Output:**
 Flödesdiagram, Verktyg som ska användas, Bestäm lämplig driftplattform
@@ -32,7 +32,7 @@ Samarbetssystem (ex Office 365)
 
 ## Change management planering
 **Beskrivning:**
-Process som underlättar att planerad change ärenden
+Process som underlättar att planera change ärenden
 
 **Input:**
 Riktlinjer, God praxis för systemutveckling
