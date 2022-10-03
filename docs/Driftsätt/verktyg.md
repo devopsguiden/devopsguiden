@@ -9,7 +9,7 @@ Centraliserad VM-styrning, bevakning, anpassa kapacitet efter behov
 Specifikation av VM-instans och riktlinjer för bevakning
 
 **Output:**
-VM i drift
+Virtuell maskin i drift
   
 ## CNCF-certifierad Kubernetes distribution
 **Funktioner:**
@@ -76,15 +76,15 @@ Konfigurationsskript och data som beskriver önskad infrastruktur
 **Output:**
 Provisionerad infrastruktur för drift
   
-## Service mesh (nät av tjänster)
+## Service mesh (ett kluster av mikrotjänster)
 **Funktioner:**
-Möjliggör uppskapande av ett nät av tjänster med lastbalansering, tjänst-till-tjänst-autenticering och bevakning
+Möjliggör uppskapande av ett kluster av tjänster med lastbalansering, tjänst-till-tjänst-autenticering och bevakning
 
 **Fördelar:**
-Stöd för mikrotjänstinteraktioner, tvingad kryptering mellan tjänster
+Stöd för mikrotjänster, tvingad kryptering mellan tjänster
 
 **Input:**
-Kontrollpanel, riktlinjer för routing av tjänstekommunikation, certifikat för autentisering m.m.
+Kontrollpanel, riktlinjer för routing av kommunikationen mellan mikrotjänster, certifikat för autentisering m.m.
 
 **Output:**
 Statusrapport från tjänster, routad kommunikationsdata m.m.

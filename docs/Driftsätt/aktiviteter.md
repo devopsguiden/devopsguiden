@@ -1,6 +1,6 @@
-## Nedladdning av artefakter
+## Nedladdning av containers (eller andra artefakter)
 **Beskrivning:**
-Ladda ner nya levererade releaseartefakter från central databas för artefakter (ex Gitlabs containerregister)
+Ladda ner levererade releasepaket från en central databas för artefakter (ex Gitlabs containerregister)
 
 **Input:**
 Begärd nedladdning av artefakt
@@ -26,18 +26,18 @@ Provisionerad infrastruktur
 Automationsverktyg
 
 
-## Länkad klon av VM-masteravbild
+## Instantiera en länkad klon av VM-masteravbild
 **Beskrivning:**
-Instantiera VM genom att skapa en länkad klon av föräldraavbild
+Instantiera en VM-instans genom att skapa en länkad klon av masteravbild
 
 **Input:**
-VM-förälder, nya instansparametrar för VM
+Masteravbild, nya instansparametrar för VM
 
 **Output:**
 Ny VM-instans
 
 **Verktygsbehov:**
-Kontrollpanel för virtualisering
+Virtualiseringsplattform
 
 
 ## Leverera container till containerregister (ex i Gitlab)
@@ -51,7 +51,7 @@ Container med förstärkt säkerhet
 Ny containerinstans
 
 **Verktygsbehov:**
-CNCF-certified Kubernetes distribution, Artefaktrepositorie, containerregister
+CNCF-certified Kubernetes distribution, containerregister (eller motsvarande databas för artefakter)
 
 
 ## Säkerhetsscanning efter driftsättning
@@ -84,7 +84,7 @@ Testskript
 
 ## Installation och driftsättning av databas och tillhörnade artefakter 
 **Beskrivning:**
-Databasinstallation, Uppsättning av redundanta kluster, Driftsätt databasartefakter och ladda in data  
+Databasinstallation, Uppsättning av redundanta kluster, Driftsätt databasartefakter och ladda in data
 
 **Input:**
 Artefakter i central databas, Data
@@ -93,4 +93,4 @@ Artefakter i central databas, Data
 Köra databassystemet
 
 **Verktygsbehov:**
-Artefaktrepositorie, verktyg för automation av databasaktiviteter, datamaskering och kryptering vid behov
+Databas för containers/artefakter, verktyg för automation av databasaktiviteter, datamaskering och kryptering vid behov

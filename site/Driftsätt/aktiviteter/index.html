@@ -173,7 +173,7 @@
     <div id="toc-collapse" class="navbar-collapse collapse card bg-secondary">
         <ul class="nav flex-column">
             
-            <li class="nav-item" data-level="2"><a href="#nedladdning-av-artefakter" class="nav-link">Nedladdning av artefakter</a>
+            <li class="nav-item" data-level="2"><a href="#nedladdning-av-containers-eller-andra-artefakter" class="nav-link">Nedladdning av containers (eller andra artefakter)</a>
               <ul class="nav flex-column">
               </ul>
             </li>
@@ -183,7 +183,7 @@
               </ul>
             </li>
             
-            <li class="nav-item" data-level="2"><a href="#lankad-klon-av-vm-masteravbild" class="nav-link">Länkad klon av VM-masteravbild</a>
+            <li class="nav-item" data-level="2"><a href="#instantiera-en-lankad-klon-av-vm-masteravbild" class="nav-link">Instantiera en länkad klon av VM-masteravbild</a>
               <ul class="nav flex-column">
               </ul>
             </li>
@@ -212,9 +212,9 @@
 </div></div>
                     <div class="col-md-9" role="main">
 
-<h2 id="nedladdning-av-artefakter">Nedladdning av artefakter</h2>
+<h2 id="nedladdning-av-containers-eller-andra-artefakter">Nedladdning av containers (eller andra artefakter)</h2>
 <p><strong>Beskrivning:</strong>
-Ladda ner nya levererade releaseartefakter från central databas för artefakter (ex Gitlabs containerregister)</p>
+Ladda ner levererade releasepaket från en central databas för artefakter (ex Gitlabs containerregister)</p>
 <p><strong>Input:</strong>
 Begärd nedladdning av artefakt</p>
 <p><strong>Output:</strong>
@@ -230,15 +230,15 @@ Skript för infrastrukturprovisionering, "recept", manifest (ex. kubernetes yaml
 Provisionerad infrastruktur</p>
 <p><strong>Verktygsbehov:</strong>
 Automationsverktyg</p>
-<h2 id="lankad-klon-av-vm-masteravbild">Länkad klon av VM-masteravbild</h2>
+<h2 id="instantiera-en-lankad-klon-av-vm-masteravbild">Instantiera en länkad klon av VM-masteravbild</h2>
 <p><strong>Beskrivning:</strong>
-Instantiera VM genom att skapa en länkad klon av föräldraavbild</p>
+Instantiera en VM-instans genom att skapa en länkad klon av masteravbild</p>
 <p><strong>Input:</strong>
-VM-förälder, nya instansparametrar för VM</p>
+Masteravbild, nya instansparametrar för VM</p>
 <p><strong>Output:</strong>
 Ny VM-instans</p>
 <p><strong>Verktygsbehov:</strong>
-Kontrollpanel för virtualisering</p>
+Virtualiseringsplattform</p>
 <h2 id="leverera-container-till-containerregister-ex-i-gitlab">Leverera container till containerregister (ex i Gitlab)</h2>
 <p><strong>Beskrivning:</strong>
 Ladda upp en container med förstärkt säkerhet och associerade artefakter till containerregister </p>
@@ -247,7 +247,7 @@ Container med förstärkt säkerhet</p>
 <p><strong>Output:</strong>
 Ny containerinstans</p>
 <p><strong>Verktygsbehov:</strong>
-CNCF-certified Kubernetes distribution, Artefaktrepositorie, containerregister</p>
+CNCF-certified Kubernetes distribution, containerregister (eller motsvarande databas för artefakter)</p>
 <h2 id="sakerhetsscanning-efter-driftsattning">Säkerhetsscanning efter driftsättning</h2>
 <p><strong>Beskrivning:</strong>
 Säkerhetsscanning av system och infrastruktur</p>
@@ -268,13 +268,13 @@ Testresult</p>
 Testskript</p>
 <h2 id="installation-och-driftsattning-av-databas-och-tillhornade-artefakter">Installation och driftsättning av databas och tillhörnade artefakter</h2>
 <p><strong>Beskrivning:</strong>
-Databasinstallation, Uppsättning av redundanta kluster, Driftsätt databasartefakter och ladda in data  </p>
+Databasinstallation, Uppsättning av redundanta kluster, Driftsätt databasartefakter och ladda in data</p>
 <p><strong>Input:</strong>
 Artefakter i central databas, Data</p>
 <p><strong>Output:</strong>
 Köra databassystemet</p>
 <p><strong>Verktygsbehov:</strong>
-Artefaktrepositorie, verktyg för automation av databasaktiviteter, datamaskering och kryptering vid behov</p></div>
+Databas för containers/artefakter, verktyg för automation av databasaktiviteter, datamaskering och kryptering vid behov</p></div>
             </div>
         </div>
 
