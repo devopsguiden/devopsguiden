@@ -16,6 +16,7 @@ Händelseloggar
 Filtrera ut det intressanta från loggfiler och konvertera till ett standardiserat format
 
 **Fördelar:**
+Stärkt signal och minskat brus så att de mest relevanta händelserna får adekvat uppmärksamhet och prioritet 
 
 **Input:**
 Loggar
@@ -51,7 +52,7 @@ Prestandastatistik, Prestandalarm
   
 ## Information Security Continuous Monitoring (ISCM)
 **Funktioner:**
-Bevaka nätverkssäkerhet, Bevaka medarbetares aktivitet i systemet, Bevaka konfigurationsändringar, Sök regelbundet igenom systemets alla komponenter efter säkerhetshot, Bevaka IT-tillgångar och upptäck avvikelser inom säkerhet, feltolerans och prestanda. Bevaka och granska loggfiler, Granska hur väl IT-tillgångarna efterlever konfigurationsriktlinjer, Upptäk och blockera skadlig kod, Kontinuerliga sårbarhetsgranskningar och analyser, Erbjud möjlighet att bläddra, filtrera, söka och visualisera analysfunktionerna, Presentera upptäckter och förslå åtgärder
+Bevaka nätverkssäkerhet, Bevaka medarbetares aktivitet i systemet, Bevaka konfigurationsändringar, Sök regelbundet igenom systemets alla komponenter efter säkerhetshot, Bevaka IT-tillgångar och upptäck avvikelser inom säkerhet, feltolerans och prestanda. Bevaka och granska loggfiler, Granska hur väl IT-tillgångarna efterlever konfigurationsriktlinjer, Upptäck och blockera skadlig kod, Kontinuerliga sårbarhetsgranskningar och analyser, Erbjud möjlighet att bläddra, filtrera, söka och visualisera analysfunktionerna, Presentera upptäckter och förslå åtgärder
 
 **Fördelar:**
 Upptäck obehörig personal, anslutningar, maskiner och mjukvara, Identifiera sårbarheter inom cybersäkerhet, Upptäck oegentligheter inom säkerhet och riktlinjer, Verifiera hur effektiva etablerade skyddmekanismer är
@@ -67,15 +68,15 @@ Sårbarheter, Oegentligheter, Upptäckter, bedömningar och rekommendationer
 
 
 **Fördelar:**
-Få en bättre överblick över systemhändelser, Minskad nertid för systemet, Förbättrad kundnöjdhet
+Få en bättre överblick över systemhändelser, Minskad nertid för system, Förbättrad kundnöjdhet
 
 **Input:**
-Loggar, övervakningsdata,
-Stöd för automatiska åtgärder för kritiska händelser 
+Loggar, övervakningsdata, Stöd för automatiska åtgärder för kritiska händelser 
 
-**Output:*Larm (meddelanden, email), Åtgärdsrapport, Ärende i ärendehanteringssystem
+**Output:**
+Larm (meddelanden, email), Åtgärdsrapport, Ärende i ärendehanteringssystem
   
-## Verktyg: databasövervakning
+## Verktyg för databasövervakning
 **Funktioner:**
 Grundkrav för databasprestanda, Upptäck avvikelser
 
@@ -88,9 +89,9 @@ Uppstartad databas
 **Output:**
 Loggar, varningar och larm
   
-## Verktyg: Säkerställ efterlevnad av riktlinjer
+## Verktyg för att säkerställ efterlevnad av riktlinjer
 **Funktioner:**
-Granskning av användar-  och dataåtkomst
+Granskning av användar- och dataåtkomst
 
 **Fördelar:**
 Förbättra databassäkerhet

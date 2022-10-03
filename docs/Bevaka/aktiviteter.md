@@ -9,7 +9,7 @@ Alla händelser som initierats av användare, nätverk, applikation och andra ak
 Loggar
 
 **Verktygsbehov:**
-Loggning
+Loggfunktionalitet i respektive applikation
 
 
 ## Logganalys
@@ -28,7 +28,7 @@ Larm och åtgärdsrapporter
 
 ## Prestandaövervakning av system
 **Beskrivning:**
-Övervaka hårdvara, mjukvara, databas och nätverksprestanda, Basnivå för systemprestanda, Upptäck avvikelser,
+Övervaka hårdvara, mjukvara, databas och nätverksprestanda, Basnivå för systemprestanda, Upptäck avvikelser
 
 **Input:**
 Driftsatt system
@@ -54,7 +54,7 @@ Sårbarheter, Oegentligheter avseende efterlevnad av riktlinjer, Upptäckter, Be
 ISCM, Ärendehanteringssystem, Larmsättning och notifiering, Instrumentpanel över driftmiljö
 
 
-## Inventarie över tillgångar
+## Inventarie över tillgångar (IT-assets)
 **Beskrivning:**
 Systemets IT-tillgångar
 
@@ -65,7 +65,7 @@ IT-tillgångar
 Inventarie över tillgångar
 
 **Verktygsbehov:**
-Hantering av tillgångar
+IT-Asset management system
 
 
 ## Bevakning av systemkonfiguration
