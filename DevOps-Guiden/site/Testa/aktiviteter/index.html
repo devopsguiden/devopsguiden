@@ -1,0 +1,470 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        
+        
+        <link rel="shortcut icon" href="../../img/favicon.ico">
+        <title>Aktiviteter - DevOps-Guiden</title>
+        <link href="../../css/bootstrap.min.css" rel="stylesheet">
+        <link href="../../css/font-awesome.min.css" rel="stylesheet">
+        <link href="../../css/base.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/styles/github.min.css">
+
+        <script src="../../js/jquery-1.10.2.min.js" defer></script>
+        <script src="../../js/bootstrap.min.js" defer></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/highlight.min.js"></script>
+        <script>hljs.initHighlightingOnLoad();</script> 
+    </head>
+
+    <body>
+        <div class="navbar fixed-top navbar-expand-lg navbar-dark bg-primary">
+            <div class="container">
+                <a class="navbar-brand" href="../..">DevOps-Guiden</a>
+                <!-- Expander button -->
+                <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbar-collapse">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <!-- Expanded navigation -->
+                <div id="navbar-collapse" class="navbar-collapse collapse">
+                        <!-- Main navigation -->
+                        <ul class="nav navbar-nav">
+                            <li class="dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Planera <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="../../Planera/aktiviteter/" class="dropdown-item">Aktiviteter</a>
+</li>
+                                    
+<li>
+    <a href="../../Planera/verktyg/" class="dropdown-item">Verktyg</a>
+</li>
+                                </ul>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Utveckla <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="../../Utveckla/aktiviteter/" class="dropdown-item">Aktiviteter</a>
+</li>
+                                    
+<li>
+    <a href="../../Utveckla/verktyg/" class="dropdown-item">Verktyg</a>
+</li>
+                                </ul>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Bygg <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="../../Bygg/aktiviteter/" class="dropdown-item">Aktiviteter</a>
+</li>
+                                    
+<li>
+    <a href="../../Bygg/verktyg/" class="dropdown-item">Verktyg</a>
+</li>
+                                </ul>
+                            </li>
+                            <li class="dropdown active">
+                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Testa <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="./" class="dropdown-item active">Aktiviteter</a>
+</li>
+                                    
+<li>
+    <a href="../verktyg/" class="dropdown-item">Verktyg</a>
+</li>
+                                </ul>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Paketera/Leverera <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="../../Leverera/aktiviteter/" class="dropdown-item">Aktiviteter</a>
+</li>
+                                    
+<li>
+    <a href="../../Leverera/verktyg/" class="dropdown-item">Verktyg</a>
+</li>
+                                </ul>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Driftsätt <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="../../Drifts%C3%A4tt/aktiviteter/" class="dropdown-item">Aktiviteter</a>
+</li>
+                                    
+<li>
+    <a href="../../Drifts%C3%A4tt/verktyg/" class="dropdown-item">Verktyg</a>
+</li>
+                                </ul>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Förvalta <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="../../F%C3%B6rvalta/aktiviteter/" class="dropdown-item">Aktiviteter</a>
+</li>
+                                    
+<li>
+    <a href="../../F%C3%B6rvalta/verktyg/" class="dropdown-item">Verktyg</a>
+</li>
+                                </ul>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Bevaka <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="../../Bevaka/aktiviteter/" class="dropdown-item">Aktiviteter</a>
+</li>
+                                    
+<li>
+    <a href="../../Bevaka/verktyg/" class="dropdown-item">Verktyg</a>
+</li>
+                                </ul>
+                            </li>
+                        </ul>
+
+                    <ul class="nav navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <a href="#" class="nav-link" data-toggle="modal" data-target="#mkdocs_search_modal">
+                                <i class="fa fa-search"></i> Search
+                            </a>
+                        </li>
+                            <li class="nav-item">
+                                <a rel="prev" href="../../Bygg/verktyg/" class="nav-link">
+                                    <i class="fa fa-arrow-left"></i> Previous
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a rel="next" href="../verktyg/" class="nav-link">
+                                    Next <i class="fa fa-arrow-right"></i>
+                                </a>
+                            </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="row">
+                    <div class="col-md-3"><div class="navbar-light navbar-expand-md bs-sidebar hidden-print affix" role="complementary">
+    <div class="navbar-header">
+        <button type="button" class="navbar-toggler collapsed" data-toggle="collapse" data-target="#toc-collapse" title="Table of Contents">
+            <span class="fa fa-angle-down"></span>
+        </button>
+    </div>
+
+    
+    <div id="toc-collapse" class="navbar-collapse collapse card bg-secondary">
+        <ul class="nav flex-column">
+            
+            <li class="nav-item" data-level="1"><a href="#aktiviteter" class="nav-link">Aktiviteter</a>
+              <ul class="nav flex-column">
+            <li class="nav-item" data-level="2"><a href="#enhetstestning" class="nav-link">Enhetstestning</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="2"><a href="#dast-verktyg-for-dynamiska-sakerhetstestning" class="nav-link">DAST - verktyg för dynamiska säkerhetstestning</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="2"><a href="#integrationstestning" class="nav-link">Integrationstestning</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="2"><a href="#systemtestning" class="nav-link">Systemtestning</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="2"><a href="#manuell-sakerhetstestning" class="nav-link">Manuell säkerhetstestning</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="2"><a href="#prestandatestning" class="nav-link">Prestandatestning</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="2"><a href="#regressiontestning" class="nav-link">Regressiontestning</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="2"><a href="#acceptanstestning" class="nav-link">Acceptanstestning</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="2"><a href="#sakerstall-att-riktlinjer-for-containers-efterlevs" class="nav-link">Säkerställ att riktlinjer för containers efterlevs</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="2"><a href="#scanna-efter-efterlevnad-av-riktlinjer" class="nav-link">Scanna efter efterlevnad av riktlinjer</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="2"><a href="#testgranskning" class="nav-link">Testgranskning</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="2"><a href="#utveckling-av-tester" class="nav-link">Utveckling av tester</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="2"><a href="#funktionella-tester-av-databas" class="nav-link">Funktionella tester av databas</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="2"><a href="#icke-funktionella-tester-av-databas" class="nav-link">Icke-funktionella tester av databas</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="2"><a href="#sakerhetstest-av-databas" class="nav-link">Säkerhetstest av databas</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="2"><a href="#granska-testkonfiguration" class="nav-link">Granska testkonfiguration</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+              </ul>
+            </li>
+        </ul>
+    </div>
+</div></div>
+                    <div class="col-md-9" role="main">
+
+<h1 id="aktiviteter">Aktiviteter</h1>
+<h2 id="enhetstestning">Enhetstestning</h2>
+<p><strong>Beskrivning:</strong>
+Assistera utveckling och körning av enhetstester, Enhetstester skrivs i samma programspråk som applikationen utvecklats i</p>
+<p><strong>Input:</strong>
+Enhetstestskript, specika enheter i källkoden som ex en funktion eller en metod, Inputdata för test och förväntad output</p>
+<p><strong>Output:</strong>
+Testrapport för att avgöra om specifika enheter i källkoden presterar enligt krav </p>
+<p><strong>Verktygsbehov:</strong>
+Verktyg för testsvit, testtäckningsverktyg</p>
+<h2 id="dast-verktyg-for-dynamiska-sakerhetstestning">DAST - verktyg för dynamiska säkerhetstestning</h2>
+<p><strong>Beskrivning:</strong>
+Utför DAST eller IAST-tester</p>
+<p><strong>Input:</strong>
+Exekvera applikationen och underliggande OS, slumpmässig input</p>
+<p><strong>Output:</strong>
+Sårbarheter, svagheter enligt statisk/dynamisk kodanalys och rekommenderade åtgärdspunkter </p>
+<p><strong>Verktygsbehov:</strong>
+DAST eller IAST-verktyg</p>
+<h2 id="integrationstestning">Integrationstestning</h2>
+<p><strong>Beskrivning:</strong>
+Utveckla integrationstester för att testa flera mjukvarukomponenter/tjänster exempelvis externt API eller databas) och granska hur väl interationen fungerar däremellan</p>
+<p><strong>Input:</strong>
+Skript för integrationstest, de enheter av koden som testas, testdata och förväntad output, </p>
+<p><strong>Output:</strong>
+Testrapport för att avgöra om de integrerade komponenterna i applikationen presterar enligt krav </p>
+<p><strong>Verktygsbehov:</strong>
+Verktyg för testsvit</p>
+<h2 id="systemtestning">Systemtestning</h2>
+<p><strong>Beskrivning:</strong>
+För systemtest nyttjas en svit av verktyg för att förstå hur väl interaktionen fungerar mellan hela systemet och även interaktionen med användare och externa system</p>
+<p><strong>Input:</strong>
+Skript för systemtest, mjukvarusystemet och externa beroenden, Testa inputdata och förväntad output </p>
+<p><strong>Output:</strong>
+Testresultat och avgör om systemet fungerar enligt förväntningar</p>
+<p><strong>Verktygsbehov:</strong>
+Verktyg för testsvit  </p>
+<h2 id="manuell-sakerhetstestning">Manuell säkerhetstestning</h2>
+<p><strong>Beskrivning:</strong>
+Ex penetrationstest där cyberattacker simuleras gentemot systemet. CI/CD automatiserar inte testet men resultat från testen kan användas som kontrollpunkter i CI/CD</p>
+<p><strong>Input:</strong>
+Körande applikation, underliggande OS, driftmiljö</p>
+<p><strong>Output:</strong>
+Sårbarhetsrapport och rekommenderade åtgärdspunkter </p>
+<p><strong>Verktygsbehov:</strong>
+Diverse verktyg och skript</p>
+<h2 id="prestandatestning">Prestandatestning</h2>
+<p><strong>Beskrivning:</strong>
+Säkerställ att applikationer preseterar väl vid förväntat belastning. Fokus för testet är applikationens responstid, pålitlighet, resursanvändning och möjligheten att anpassa kapacitet efter belastning</p>
+<p><strong>Input:</strong>
+Testfall, testdata och applikationen</p>
+<p><strong>Output:</strong>
+Prestandaresultat</p>
+<p><strong>Verktygsbehov:</strong>
+Verktyg för testsvit, verktyg för att generera testdata</p>
+<h2 id="regressiontestning">Regressiontestning</h2>
+<p><strong>Beskrivning:</strong>
+En typ av test med avsikt att säkerställa att nyligen gjorda ändringar i koden/applikationen inte påverkar befintlig funktionalitet</p>
+<p><strong>Input:</strong>
+Funktionella och icke-funktionella regressionstestfall, Applikationen</p>
+<p><strong>Output:</strong>
+Testrapport</p>
+<p><strong>Verktygsbehov:</strong>
+Verktyg för testsvit</p>
+<h2 id="acceptanstestning">Acceptanstestning</h2>
+<p><strong>Beskrivning:</strong>
+Utför test som ska säkerställa att systemet är redo för driftsättning, Testar ex tillgänglighet och användbarhet, redundans/failover, systemets förmåga till återhämtning, stresstest, säkerhets och penetrationstest, Kompatibilitet och integration med andra system, Hur lätt blir det att förvalta och supportera systemet?</p>
+<p><strong>Input:</strong>
+Testdata</p>
+<p><strong>Output:</strong>
+Testrapport</p>
+<p><strong>Verktygsbehov:</strong>
+Verktygssvit för testning, Scanning för att säkerställa efterlevnad av riktlinjer   </p>
+<h2 id="sakerstall-att-riktlinjer-for-containers-efterlevs">Säkerställ att riktlinjer för containers efterlevs</h2>
+<p><strong>Beskrivning:</strong>
+Kontrollera att containers följer angivna riktlinjer</p>
+<p><strong>Input:</strong>
+Container, Riktlinjer i SCAP-format</p>
+<p><strong>Output:</strong>
+Rapport gällande efterlevnad av riktlinjer</p>
+<p><strong>Verktygsbehov:</strong>
+Tvingad efterlevnad av riktlinjer</p>
+<h2 id="scanna-efter-efterlevnad-av-riktlinjer">Scanna efter efterlevnad av riktlinjer</h2>
+<p><strong>Beskrivning:</strong>
+Efterlevnadsgranskning</p>
+<p><strong>Input:</strong>
+Artefakter, applikationsinstanser, systemets komponenter</p>
+<p><strong>Output:</strong>
+Efterlevnadsrapport</p>
+<p><strong>Verktygsbehov:</strong>
+Granskning/scanning av efterlevnad av icke-säkerhetsmässiga riktlinjer Kontroll av mjukvarulicenser. Verktyg: säkerställ efterlevnad av säkherhetsriktlinjer</p>
+<h2 id="testgranskning">Testgranskning</h2>
+<p><strong>Beskrivning:</strong>
+Granska när de olika testerna körs och kontrollera lagrade testresultatet</p>
+<p><strong>Input:</strong>
+Testaktivitet och testresultat</p>
+<p><strong>Output:</strong>
+Testgranskning</p>
+<p><strong>Verktygsbehov:</strong>
+Teststyrningsverktyg</p>
+<h2 id="utveckling-av-tester">Utveckling av tester</h2>
+<p><strong>Beskrivning:</strong>
+Driftsätt applikationen i testmiljö mha infrastruktur som kod</p>
+<p><strong>Input:</strong>
+Artefakter, Infrastruktur som kod</p>
+<p><strong>Output:</strong>
+Körklar testmiljö</p>
+<p><strong>Verktygsbehov:</strong>
+Verktyg för automatisering av konfiguration</p>
+<h2 id="funktionella-tester-av-databas">Funktionella tester av databas</h2>
+<p><strong>Beskrivning:</strong>
+Utför enhetstester och funktionella tester mot databas för att verifiera datadefinitioner, triggers, begränsningar är implementerade enligt förväntan</p>
+<p><strong>Input:</strong>
+Testdata</p>
+<p><strong>Output:</strong>
+Testrapport</p>
+<p><strong>Verktygsbehov:</strong>
+Testverktyg för databaser</p>
+<h2 id="icke-funktionella-tester-av-databas">Icke-funktionella tester av databas</h2>
+<p><strong>Beskrivning:</strong>
+Utför prestandatest, failover-test, Stresstesta</p>
+<p><strong>Input:</strong>
+Testscenarier, testdata</p>
+<p><strong>Output:</strong>
+Testrapport</p>
+<p><strong>Verktygsbehov:</strong>
+Testverktyg för databaser</p>
+<h2 id="sakerhetstest-av-databas">Säkerhetstest av databas</h2>
+<p><strong>Beskrivning:</strong>
+Säkerhetsscanning, säkerhetstest</p>
+<p><strong>Input:</strong>
+Testscenarier, testdata</p>
+<p><strong>Output:</strong>
+Testrapport</p>
+<p><strong>Verktygsbehov:</strong>
+Upptäckter av sårbarheter, Rekommenderade åtgärder</p>
+<h2 id="granska-testkonfiguration">Granska testkonfiguration</h2>
+<p><strong>Beskrivning:</strong>
+Spåra scanningsresultat från test och säkerhetsanalys, Ta fram åtgärdspunkter, Ta go/no go-beslut för nästa fas</p>
+<p><strong>Input:</strong>
+Testresultat, rapport fårn säkerhetscanning och kontroll av efterlevnad enligt riktlinjer </p>
+<p><strong>Output:</strong>
+Versionshanterade testresultat, Åtgärdspunkter, Ta go/no go-beslut</p>
+<p><strong>Verktygsbehov:</strong>
+Samarbetssystem, Ärendehanteringssystem, CI/CD-server/orkestrator</p></div>
+            </div>
+        </div>
+
+        <footer class="col-md-12">
+            <hr>
+            <p>Documentation built with <a href="https://www.mkdocs.org/">MkDocs</a>.</p>
+        </footer>
+        <script>
+            var base_url = "../..",
+                shortcuts = {"help": 191, "next": 78, "previous": 80, "search": 83};
+        </script>
+        <script src="../../js/base.js" defer></script>
+        <script src="../../search/main.js" defer></script>
+
+        <div class="modal" id="mkdocs_search_modal" tabindex="-1" role="dialog" aria-labelledby="searchModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="searchModalLabel">Search</h4>
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+            </div>
+            <div class="modal-body">
+                <p>From here you can search these documents. Enter your search terms below.</p>
+                <form>
+                    <div class="form-group">
+                        <input type="search" class="form-control" placeholder="Search..." id="mkdocs-search-query" title="Type search term here">
+                    </div>
+                </form>
+                <div id="mkdocs-search-results" data-no-results-text="No results found"></div>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div><div class="modal" id="mkdocs_keyboard_modal" tabindex="-1" role="dialog" aria-labelledby="keyboardModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="keyboardModalLabel">Keyboard Shortcuts</h4>
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+            </div>
+            <div class="modal-body">
+              <table class="table">
+                <thead>
+                  <tr>
+                    <th style="width: 20%;">Keys</th>
+                    <th>Action</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td class="help shortcut"><kbd>?</kbd></td>
+                    <td>Open this help</td>
+                  </tr>
+                  <tr>
+                    <td class="next shortcut"><kbd>n</kbd></td>
+                    <td>Next page</td>
+                  </tr>
+                  <tr>
+                    <td class="prev shortcut"><kbd>p</kbd></td>
+                    <td>Previous page</td>
+                  </tr>
+                  <tr>
+                    <td class="search shortcut"><kbd>s</kbd></td>
+                    <td>Search</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div>
+
+    </body>
+</html>
