@@ -36,7 +36,7 @@ Process som underlättar att planera change ärenden
 Riktlinjer, God praxis för systemutveckling
 
 **Output:**
-Change process, Rutin för granskning, Granskningskommité, Change mgmt plan
+Change process, Rutin för granskning, Granskningskommité, Change management plan
 
 **Verktygsbehov:**
 Samarbetssystem (ex Office 365), Ärendehanteringssystem
@@ -48,7 +48,7 @@ Samarbetssystem (ex Office 365), Ärendehanteringssystem
 Planera processen för konfigurationsarbete, Identifiera konfigurationsuppgifter
 
 **Input:**
-God praxis för systemutveckling, säkerhet och drift, IT assets, systemets mjukvarukomponenter
+God praxis för systemutveckling, säkerhet och drift, IT-assets, systemets mjukvarukomponenter
 
 **Output:**
 Process/planering för konfigurationsarbete, val av verktyg, ansvarsfördelning, taggning/kategorisering
@@ -58,7 +58,7 @@ Samarbetssystem (ex Office 365), Ärendehanteringssystem
   
 
 
-## Kravspecificering
+## Kravsställning
 **Beskrivning:**
 Kravinsamling
 
@@ -66,7 +66,7 @@ Kravinsamling
 Input/feedback från intressenter, Input avseende bevakning av levererat system, feedback från tester
 
 **Output:**
-Funktionella krav: prestandakrav, info.säkerhetskrav, säkerhetskrav
+Funktionella krav: prestandakrav, informationssäkerhetskrav, säkerhetskrav
 
 **Verktygsbehov:**
 Samarbetssystem (ex Office 365), Ärendehanteringssystem
@@ -80,7 +80,7 @@ Designa systemet enligt krav
 Kravdokument
 
 **Output:**
-Dokument: systemarkitektur, funktiell design, flödesdiagram för data, testplan, infrastrukturskonfiguration, val av verktyg, utvecklingsverktyg/miljö, testverktyg/miljö, driftplattform 
+Dokument: systemarkitektur, funktionell design, flödesdiagram för data, testplan, infrastrukturskonfiguration, val av verktyg, utvecklingsverktyg/miljö, testverktyg/miljö, driftplattform
 
 **Verktygsbehov:**
 Samarbetssystem (ex Office 365), Ärendehanteringssystem, Verktyg för mjukvarudesign (UML, flödesdiagram etc)
@@ -105,7 +105,7 @@ Samarbetssystem (ex Office 365), Projekthanteringssystem
 Riskanalys
 
 **Input:**
-Systemarkitektur, Supply chain/materialflöde/"flödesekonomi", Säkerhetsrisker
+Systemarkitektur, Supply chain/värdekedja, Säkerhetsrisker
 
 **Output:**
 Riskhanteringsplan
@@ -119,7 +119,7 @@ Samarbetssystem (ex Office 365)
 Upptäck eller mata in konfigurationsuppgifter i databas, Etablera baskrav för systemet
 
 **Input:**
-IT infra.assets: mjukvarukomponenter, grundkrav för kod och dokumentation
+Assets för IT-infrastruktur, mjukvarukomponenter, grundkrav för kod och dokumentation
 
 **Output:**
 Konfigurationsuppgifter
