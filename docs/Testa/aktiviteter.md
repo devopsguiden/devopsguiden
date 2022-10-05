@@ -216,4 +216,4 @@ Testresultat, rapport från säkerhetscanning och kontroll av efterlevnad enligt
 Versionshanterade testresultat, Åtgärdspunkter, Ta go/no go-beslut
 
 **Verktygsbehov:**
-Samarbetssystem, Ärendehanteringssystem, CI/CD-server/orkestrator
+Samarbetssystem, Ärendehanteringssystem, CI/CD-server, orkestrator
