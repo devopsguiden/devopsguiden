@@ -23,7 +23,7 @@ Release-paket
 Ny release i ex ett containerregister (eller annan databas för releasepaket)
 
 **Verktygsbehov:**
-Container registry så som Harbour eller det inbyggda i Gitlab (eller motsvarande)
+Container registry så som Harbour eller det inbyggda i Gitlab/GitHub (eller motsvarande)
 
 
 ## Replicera artefakter
