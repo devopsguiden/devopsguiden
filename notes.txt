@@ -1,0 +1,1 @@
+Publicera från publish-branch och /docs path. TODO: ändra path

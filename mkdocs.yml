@@ -1,0 +1,21 @@
+site_name: DevOps-Guiden
+nav:
+    - Introduktion: index.md
+    - DevOps-livscykeln:
+      -  Planera - Aktiviteter: Planera/aktiviteter.md
+      -  Planera - Verktyg: Planera/verktyg.md
+      -  Utveckla - Aktiviteter: Utveckla/aktiviteter.md
+      -  Utveckla - Verktyg: Utveckla/verktyg.md
+      -  Bygg - Aktiviteter: Bygg/aktiviteter.md
+      -  Bygg - Verktyg: Bygg/verktyg.md
+      -  Testa - Aktiviteter: Testa/aktiviteter.md
+      -  Testa - Verktyg: Testa/verktyg.md
+      -  Leverera - Aktiviteter: Leverera/aktiviteter.md
+      -  Leverera - Verktyg: Leverera/verktyg.md
+      -  Driftsätt - Aktiviteter: Driftsätt/aktiviteter.md
+      -  Driftsätt - Verktyg: Driftsätt/verktyg.md
+      -  Förvalta - Aktiviteter: Förvalta/aktiviteter.md
+      -  Förvalta - Verktyg: Förvalta/verktyg.md
+      -  Bevaka - Aktiviteter: Bevaka/aktiviteter.md
+      -  Bevaka - Verktyg: Bevaka/verktyg.md
+    - Verktygslådan: verktygsladan.md
