@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        
+        
+        <link rel="shortcut icon" href="../../img/favicon.ico">
+        <title>Utveckla - Verktyg - DevOps-Guiden</title>
+        <link href="../../css/bootstrap.min.css" rel="stylesheet">
+        <link href="../../css/font-awesome.min.css" rel="stylesheet">
+        <link href="../../css/base.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/styles/github.min.css">
+
+        <script src="../../js/jquery-1.10.2.min.js" defer></script>
+        <script src="../../js/bootstrap.min.js" defer></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/highlight.min.js"></script>
+        <script>hljs.initHighlightingOnLoad();</script> 
+    </head>
+
+    <body>
+        <div class="navbar fixed-top navbar-expand-lg navbar-dark bg-primary">
+            <div class="container">
+                <a class="navbar-brand" href="../..">DevOps-Guiden</a>
+                <!-- Expander button -->
+                <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbar-collapse">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <!-- Expanded navigation -->
+                <div id="navbar-collapse" class="navbar-collapse collapse">
+                        <!-- Main navigation -->
+                        <ul class="nav navbar-nav">
+                            <li class="navitem">
+                                <a href="../.." class="nav-link">Introduktion</a>
+                            </li>
+                            <li class="dropdown active">
+                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">DevOps-livscykeln <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="../../Planera/aktiviteter/" class="dropdown-item">Planera - Aktiviteter</a>
+</li>
+                                    
+<li>
+    <a href="../../Planera/verktyg/" class="dropdown-item">Planera - Verktyg</a>
+</li>
+                                    
+<li>
+    <a href="../aktiviteter/" class="dropdown-item">Utveckla - Aktiviteter</a>
+</li>
+                                    
+<li>
+    <a href="./" class="dropdown-item active">Utveckla - Verktyg</a>
+</li>
+                                    
+<li>
+    <a href="../../Bygg/aktiviteter/" class="dropdown-item">Bygg - Aktiviteter</a>
+</li>
+                                    
+<li>
+    <a href="../../Bygg/verktyg/" class="dropdown-item">Bygg - Verktyg</a>
+</li>
+                                    
+<li>
+    <a href="../../Testa/aktiviteter/" class="dropdown-item">Testa - Aktiviteter</a>
+</li>
+                                    
+<li>
+    <a href="../../Testa/verktyg/" class="dropdown-item">Testa - Verktyg</a>
+</li>
+                                    
+<li>
+    <a href="../../Leverera/aktiviteter/" class="dropdown-item">Leverera - Aktiviteter</a>
+</li>
+                                    
+<li>
+    <a href="../../Leverera/verktyg/" class="dropdown-item">Leverera - Verktyg</a>
+</li>
+                                    
+<li>
+    <a href="../../Drifts%C3%A4tt/aktiviteter/" class="dropdown-item">Driftsätt - Aktiviteter</a>
+</li>
+                                    
+<li>
+    <a href="../../Drifts%C3%A4tt/verktyg/" class="dropdown-item">Driftsätt - Verktyg</a>
+</li>
+                                    
+<li>
+    <a href="../../F%C3%B6rvalta/aktiviteter/" class="dropdown-item">Förvalta - Aktiviteter</a>
+</li>
+                                    
+<li>
+    <a href="../../F%C3%B6rvalta/verktyg/" class="dropdown-item">Förvalta - Verktyg</a>
+</li>
+                                    
+<li>
+    <a href="../../Bevaka/aktiviteter/" class="dropdown-item">Bevaka - Aktiviteter</a>
+</li>
+                                    
+<li>
+    <a href="../../Bevaka/verktyg/" class="dropdown-item">Bevaka - Verktyg</a>
+</li>
+                                </ul>
+                            </li>
+                            <li class="navitem">
+                                <a href="../../verktygsladan/" class="nav-link">Verktygslådan</a>
+                            </li>
+                        </ul>
+
+                    <ul class="nav navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <a href="#" class="nav-link" data-toggle="modal" data-target="#mkdocs_search_modal">
+                                <i class="fa fa-search"></i> Search
+                            </a>
+                        </li>
+                            <li class="nav-item">
+                                <a rel="prev" href="../aktiviteter/" class="nav-link">
+                                    <i class="fa fa-arrow-left"></i> Previous
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a rel="next" href="../../Bygg/aktiviteter/" class="nav-link">
+                                    Next <i class="fa fa-arrow-right"></i>
+                                </a>
+                            </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="row">
+                    <div class="col-md-3"><div class="navbar-light navbar-expand-md bs-sidebar hidden-print affix" role="complementary">
+    <div class="navbar-header">
+        <button type="button" class="navbar-toggler collapsed" data-toggle="collapse" data-target="#toc-collapse" title="Table of Contents">
+            <span class="fa fa-angle-down"></span>
+        </button>
+    </div>
+
+    
+    <div id="toc-collapse" class="navbar-collapse collapse card bg-secondary">
+        <ul class="nav flex-column">
+            
+            <li class="nav-item" data-level="2"><a href="#integrerad-utvecklingsmiljo-ide" class="nav-link">Integrerad Utvecklingsmiljö (IDE)</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            
+            <li class="nav-item" data-level="2"><a href="#integrerad-utvecklingsmiljo-ide-och-sakerhetsplugin" class="nav-link">Integrerad Utvecklingsmiljö (IDE) och säkerhetsplugin</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            
+            <li class="nav-item" data-level="2"><a href="#versionshanterad-kallkod-ex-git-repo" class="nav-link">Versionshanterad källkod (ex git repo)</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            
+            <li class="nav-item" data-level="2"><a href="#lokalt-installerat-versionshanteringssystem-eller-integrerad-utvecklingsmiljo-ide" class="nav-link">Lokalt installerat versionshanteringssystem eller integrerad Utvecklingsmiljö (IDE)</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            
+            <li class="nav-item" data-level="2"><a href="#verktyg-for-granskning-av-kodkvalitet" class="nav-link">Verktyg för granskning av kodkvalitet</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+        </ul>
+    </div>
+</div></div>
+                    <div class="col-md-9" role="main">
+
+<h2 id="integrerad-utvecklingsmiljo-ide">Integrerad Utvecklingsmiljö (IDE)</h2>
+<p><strong>Funktioner:</strong>
+Integrerad utvecklingsmiljö, Intelligent automatisk kodkomplettering, Kompilator eller kodtolk, Debugger, Byggautomation (integration med byggverktyg)</p>
+<p><strong>Fördelar:</strong>
+Visuell representation förbättrar effektivitet, Snabbare och effektivare systemutveckling, Snabbare åtgärd av buggar, Reproducerbara byggen mha skript</p>
+<p><strong>Input:</strong>
+Inmatning av källkod </p>
+<p><strong>Output:</strong>
+Källkod</p>
+<h2 id="integrerad-utvecklingsmiljo-ide-och-sakerhetsplugin">Integrerad Utvecklingsmiljö (IDE) och säkerhetsplugin</h2>
+<p><strong>Funktioner:</strong>
+Scanna och granska källkod i takt med att den matas in, notifiera utvecklaren om potentiella sårbarheter i källkoden. Potentiellt kan verktyget även föreslå förbättringar</p>
+<p><strong>Fördelar:</strong>
+Åtgärda sårbarheter i källkod och hjälp utvecklare att arbeta på ett mer defensivt sätt</p>
+<p><strong>Input:</strong>
+Källkod, Kända sårbarheter</p>
+<p><strong>Output:</strong>
+Upptäcka sårbarheter i källkod</p>
+<h2 id="versionshanterad-kallkod-ex-git-repo">Versionshanterad källkod (ex git repo)</h2>
+<p><strong>Funktioner:</strong>
+Versionshantering av källkod, Förgrening och integrering, Gemensam kodgranskning</p>
+<p><strong>Fördelar:</strong>
+Jämför filer, identifiera skillnader innan integrering/leverans, håll reda på byggen av applikationer</p>
+<p><strong>Input:</strong>
+Källkod, konfiguration (infrastruktur som kod)</p>
+<p><strong>Output:</strong>
+Versionshanterad källkod</p>
+<h2 id="lokalt-installerat-versionshanteringssystem-eller-integrerad-utvecklingsmiljo-ide">Lokalt installerat versionshanteringssystem eller integrerad Utvecklingsmiljö (IDE)</h2>
+<p><strong>Funktioner:</strong>
+Identifiera förändringar på uppseendeväckande ställen så som SSH-nycklar, auktoriseringstoken, lösenord eller annan känslig information innan förändringarna laddas upp till en central versionshanteringsstjänst</p>
+<p><strong>Fördelar:</strong>
+Avhjälper att lösenord och annan känslig data lagras tillsammans med den versionshanterade källkoden</p>
+<p><strong>Input:</strong>
+Källkod som skapas av utvecklaren på dennes egen dator </p>
+<p><strong>Output:</strong>
+Upptäckta varningar och brister</p>
+<h2 id="verktyg-for-granskning-av-kodkvalitet">Verktyg för granskning av kodkvalitet</h2>
+<p><strong>Funktioner:</strong>
+Se kodförändringar, identifiera defekter, stöt bort eller godkänn förändringar, skapa upp kommentarer på berörda rader i källkoden, Bestäm regler för granskning och notifiera per automatik för att tillse att granskning utförs inom ett rimligt tidsintervall</p>
+<p><strong>Fördelar:</strong>
+Automatisera granskningsprocessen vilket minimerar arbetstid för manuell granskning</p>
+<p><strong>Input:</strong>
+Källkod</p>
+<p><strong>Output:</strong>
+Granska resultat (slå ifrån eller godkänn) kommentarer i källkoden</p></div>
+            </div>
+        </div>
+
+        <footer class="col-md-12">
+            <hr>
+            <p>Documentation built with <a href="https://www.mkdocs.org/">MkDocs</a>.</p>
+        </footer>
+        <script>
+            var base_url = "../..",
+                shortcuts = {"help": 191, "next": 78, "previous": 80, "search": 83};
+        </script>
+        <script src="../../js/base.js" defer></script>
+        <script src="../../search/main.js" defer></script>
+
+        <div class="modal" id="mkdocs_search_modal" tabindex="-1" role="dialog" aria-labelledby="searchModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="searchModalLabel">Search</h4>
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+            </div>
+            <div class="modal-body">
+                <p>From here you can search these documents. Enter your search terms below.</p>
+                <form>
+                    <div class="form-group">
+                        <input type="search" class="form-control" placeholder="Search..." id="mkdocs-search-query" title="Type search term here">
+                    </div>
+                </form>
+                <div id="mkdocs-search-results" data-no-results-text="No results found"></div>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div><div class="modal" id="mkdocs_keyboard_modal" tabindex="-1" role="dialog" aria-labelledby="keyboardModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="keyboardModalLabel">Keyboard Shortcuts</h4>
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+            </div>
+            <div class="modal-body">
+              <table class="table">
+                <thead>
+                  <tr>
+                    <th style="width: 20%;">Keys</th>
+                    <th>Action</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td class="help shortcut"><kbd>?</kbd></td>
+                    <td>Open this help</td>
+                  </tr>
+                  <tr>
+                    <td class="next shortcut"><kbd>n</kbd></td>
+                    <td>Next page</td>
+                  </tr>
+                  <tr>
+                    <td class="prev shortcut"><kbd>p</kbd></td>
+                    <td>Previous page</td>
+                  </tr>
+                  <tr>
+                    <td class="search shortcut"><kbd>s</kbd></td>
+                    <td>Search</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div>
+
+    </body>
+</html>
