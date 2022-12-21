@@ -1,0 +1,408 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        
+        
+        <link rel="shortcut icon" href="../../img/favicon.ico">
+        <title>Planera - Aktiviteter - DevOps-Guiden</title>
+        <link href="../../css/bootstrap.min.css" rel="stylesheet">
+        <link href="../../css/font-awesome.min.css" rel="stylesheet">
+        <link href="../../css/base.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/styles/github.min.css">
+
+        <script src="../../js/jquery-1.10.2.min.js" defer></script>
+        <script src="../../js/bootstrap.min.js" defer></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/highlight.min.js"></script>
+        <script>hljs.initHighlightingOnLoad();</script> 
+    </head>
+
+    <body>
+        <div class="navbar fixed-top navbar-expand-lg navbar-dark bg-primary">
+            <div class="container">
+                <a class="navbar-brand" href="../..">DevOps-Guiden</a>
+                <!-- Expander button -->
+                <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbar-collapse">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <!-- Expanded navigation -->
+                <div id="navbar-collapse" class="navbar-collapse collapse">
+                        <!-- Main navigation -->
+                        <ul class="nav navbar-nav">
+                            <li class="navitem">
+                                <a href="../.." class="nav-link">Introduktion</a>
+                            </li>
+                            <li class="dropdown active">
+                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">DevOps-livscykeln <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="./" class="dropdown-item active">Planera - Aktiviteter</a>
+</li>
+                                    
+<li>
+    <a href="../verktyg/" class="dropdown-item">Planera - Verktyg</a>
+</li>
+                                    
+<li>
+    <a href="../../Utveckla/aktiviteter/" class="dropdown-item">Utveckla - Aktiviteter</a>
+</li>
+                                    
+<li>
+    <a href="../../Utveckla/verktyg/" class="dropdown-item">Utveckla - Verktyg</a>
+</li>
+                                    
+<li>
+    <a href="../../Bygg/aktiviteter/" class="dropdown-item">Bygg - Aktiviteter</a>
+</li>
+                                    
+<li>
+    <a href="../../Bygg/verktyg/" class="dropdown-item">Bygg - Verktyg</a>
+</li>
+                                    
+<li>
+    <a href="../../Testa/aktiviteter/" class="dropdown-item">Testa - Aktiviteter</a>
+</li>
+                                    
+<li>
+    <a href="../../Testa/verktyg/" class="dropdown-item">Testa - Verktyg</a>
+</li>
+                                    
+<li>
+    <a href="../../Leverera/aktiviteter/" class="dropdown-item">Leverera - Aktiviteter</a>
+</li>
+                                    
+<li>
+    <a href="../../Leverera/verktyg/" class="dropdown-item">Leverera - Verktyg</a>
+</li>
+                                    
+<li>
+    <a href="../../Drifts%C3%A4tt/aktiviteter/" class="dropdown-item">Driftsätt - Aktiviteter</a>
+</li>
+                                    
+<li>
+    <a href="../../Drifts%C3%A4tt/verktyg/" class="dropdown-item">Driftsätt - Verktyg</a>
+</li>
+                                    
+<li>
+    <a href="../../F%C3%B6rvalta/aktiviteter/" class="dropdown-item">Förvalta - Aktiviteter</a>
+</li>
+                                    
+<li>
+    <a href="../../F%C3%B6rvalta/verktyg/" class="dropdown-item">Förvalta - Verktyg</a>
+</li>
+                                    
+<li>
+    <a href="../../Bevaka/aktiviteter/" class="dropdown-item">Bevaka - Aktiviteter</a>
+</li>
+                                    
+<li>
+    <a href="../../Bevaka/verktyg/" class="dropdown-item">Bevaka - Verktyg</a>
+</li>
+                                </ul>
+                            </li>
+                            <li class="navitem">
+                                <a href="../../verktygsladan/" class="nav-link">Verktygslådan</a>
+                            </li>
+                        </ul>
+
+                    <ul class="nav navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <a href="#" class="nav-link" data-toggle="modal" data-target="#mkdocs_search_modal">
+                                <i class="fa fa-search"></i> Search
+                            </a>
+                        </li>
+                            <li class="nav-item">
+                                <a rel="prev" href="../.." class="nav-link">
+                                    <i class="fa fa-arrow-left"></i> Previous
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a rel="next" href="../verktyg/" class="nav-link">
+                                    Next <i class="fa fa-arrow-right"></i>
+                                </a>
+                            </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="row">
+                    <div class="col-md-3"><div class="navbar-light navbar-expand-md bs-sidebar hidden-print affix" role="complementary">
+    <div class="navbar-header">
+        <button type="button" class="navbar-toggler collapsed" data-toggle="collapse" data-target="#toc-collapse" title="Table of Contents">
+            <span class="fa fa-angle-down"></span>
+        </button>
+    </div>
+
+    
+    <div id="toc-collapse" class="navbar-collapse collapse card bg-secondary">
+        <ul class="nav flex-column">
+            
+            <li class="nav-item" data-level="2"><a href="#processkartlaggning" class="nav-link">Processkartläggning</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            
+            <li class="nav-item" data-level="2"><a href="#uppstartsmote" class="nav-link">Uppstartsmöte</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            
+            <li class="nav-item" data-level="2"><a href="#change-management-planering" class="nav-link">Change management planering</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            
+            <li class="nav-item" data-level="2"><a href="#planering-av-konfigurationsarbete" class="nav-link">Planering av konfigurationsarbete</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            
+            <li class="nav-item" data-level="2"><a href="#kravsstallning" class="nav-link">Kravsställning</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            
+            <li class="nav-item" data-level="2"><a href="#systemdesign" class="nav-link">Systemdesign</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            
+            <li class="nav-item" data-level="2"><a href="#projektplanering" class="nav-link">Projektplanering</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            
+            <li class="nav-item" data-level="2"><a href="#riskhantering" class="nav-link">Riskhantering</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            
+            <li class="nav-item" data-level="2"><a href="#identifiera-konfigurationsbehov" class="nav-link">Identifiera konfigurationsbehov</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            
+            <li class="nav-item" data-level="2"><a href="#hotmodellering" class="nav-link">Hotmodellering</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            
+            <li class="nav-item" data-level="2"><a href="#databasdesign" class="nav-link">Databasdesign</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            
+            <li class="nav-item" data-level="2"><a href="#designgranskning" class="nav-link">Designgranskning</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            
+            <li class="nav-item" data-level="2"><a href="#versionshanterad-dokumentation" class="nav-link">Versionshanterad dokumentation</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+        </ul>
+    </div>
+</div></div>
+                    <div class="col-md-9" role="main">
+
+<h2 id="processkartlaggning">Processkartläggning</h2>
+<p><strong>Beskrivning:</strong>
+Dokumentera och kartlägg vilka processer och aktiviteter som krävs för varje projekt</p>
+<p><strong>Input:</strong>
+Systemdesign, Releaseplanering/schemaläggning</p>
+<p><strong>Output:</strong>
+Flödesdiagram, Verktyg som ska användas, Bestäm lämplig driftplattform</p>
+<p><strong>Verktygsbehov:</strong>
+Samarbetssystem (ex Office 365)</p>
+<h2 id="uppstartsmote">Uppstartsmöte</h2>
+<p><strong>Beskrivning:</strong>
+Planera team onboarding för projektet</p>
+<p><strong>Input:</strong>
+Riktlinjer</p>
+<p><strong>Output:</strong>
+Plan för onboarding</p>
+<p><strong>Verktygsbehov:</strong>
+Samarbetssystem (ex Office 365)</p>
+<h2 id="change-management-planering">Change management planering</h2>
+<p><strong>Beskrivning:</strong>
+Process som underlättar att planera change ärenden</p>
+<p><strong>Input:</strong>
+Riktlinjer, God praxis för systemutveckling</p>
+<p><strong>Output:</strong>
+Change process, Rutin för granskning, Granskningskommité, Change management plan</p>
+<p><strong>Verktygsbehov:</strong>
+Samarbetssystem (ex Office 365), Ärendehanteringssystem</p>
+<h2 id="planering-av-konfigurationsarbete">Planering av konfigurationsarbete</h2>
+<p><strong>Beskrivning:</strong>
+Planera processen för konfigurationsarbete, Identifiera konfigurationsuppgifter</p>
+<p><strong>Input:</strong>
+God praxis för systemutveckling, säkerhet och drift, IT-assets, systemets mjukvarukomponenter</p>
+<p><strong>Output:</strong>
+Process/planering för konfigurationsarbete, val av verktyg, ansvarsfördelning, taggning/kategorisering</p>
+<p><strong>Verktygsbehov:</strong>
+Samarbetssystem (ex Office 365), Ärendehanteringssystem</p>
+<h2 id="kravsstallning">Kravsställning</h2>
+<p><strong>Beskrivning:</strong>
+Kravinsamling</p>
+<p><strong>Input:</strong>
+Input/feedback från intressenter, Input avseende bevakning av levererat system, feedback från tester</p>
+<p><strong>Output:</strong>
+Funktionella krav: prestandakrav, informationssäkerhetskrav, säkerhetskrav</p>
+<p><strong>Verktygsbehov:</strong>
+Samarbetssystem (ex Office 365), Ärendehanteringssystem</p>
+<h2 id="systemdesign">Systemdesign</h2>
+<p><strong>Beskrivning:</strong>
+Designa systemet enligt krav</p>
+<p><strong>Input:</strong>
+Kravdokument</p>
+<p><strong>Output:</strong>
+Dokument: systemarkitektur, funktionell design, flödesdiagram för data, testplan, infrastrukturskonfiguration, val av verktyg, utvecklingsverktyg/miljö, testverktyg/miljö, driftplattform</p>
+<p><strong>Verktygsbehov:</strong>
+Samarbetssystem (ex Office 365), Ärendehanteringssystem, Verktyg för mjukvarudesign (UML, flödesdiagram etc)</p>
+<h2 id="projektplanering">Projektplanering</h2>
+<p><strong>Beskrivning:</strong>
+Projektledning, Releaseplanering</p>
+<p><strong>Input:</strong></p>
+<p><strong>Output:</strong>
+Arbetsuppgifter/planerade utvecklingsinsatser, schemaläggning/estimat, Releaseplan/schema</p>
+<p><strong>Verktygsbehov:</strong>
+Samarbetssystem (ex Office 365), Projekthanteringssystem</p>
+<h2 id="riskhantering">Riskhantering</h2>
+<p><strong>Beskrivning:</strong>
+Riskanalys</p>
+<p><strong>Input:</strong>
+Systemarkitektur, Supply chain/värdekedja, Säkerhetsrisker</p>
+<p><strong>Output:</strong>
+Riskhanteringsplan</p>
+<p><strong>Verktygsbehov:</strong>
+Samarbetssystem (ex Office 365)</p>
+<h2 id="identifiera-konfigurationsbehov">Identifiera konfigurationsbehov</h2>
+<p><strong>Beskrivning:</strong>
+Upptäck eller mata in konfigurationsuppgifter i databas, Etablera baskrav för systemet</p>
+<p><strong>Input:</strong>
+Assets för IT-infrastruktur, mjukvarukomponenter, grundkrav för kod och dokumentation</p>
+<p><strong>Output:</strong>
+Konfigurationsuppgifter</p>
+<p><strong>Verktygsbehov:</strong>
+CMDB - databas för konfigurationsfiler/data (ex. Gitlab), versionshanteradd källkod i ett git repo (eller motsvarande) och i en central samarbetsplattform för versionshanterad kod (ex Gitlab eller GitHub, Databas för artefakter så som containers (kan också vara Gitlab), Samarbetssystem (ex Office 365)</p>
+<h2 id="hotmodellering">Hotmodellering</h2>
+<p><strong>Beskrivning:</strong>
+Identifiera potentiella hot och sårbarheter, Ta fram åtgärdsplan</p>
+<p><strong>Input:</strong>
+Systemdesign</p>
+<p><strong>Output:</strong>
+Potentiella hot och åtgärdsplan</p>
+<p><strong>Verktygsbehov:</strong>
+Verktyg för hotmodellering</p>
+<h2 id="databasdesign">Databasdesign</h2>
+<p><strong>Beskrivning:</strong>
+Datamodellering, val av databas, databasdrift</p>
+<p><strong>Input:</strong>
+Kravspecifikation, systemdesign</p>
+<p><strong>Output:</strong>
+Designdokument databas</p>
+<p><strong>Verktygsbehov:</strong>
+Verktyg för databasmodellering, Samarbetssystem (ex Office 365)</p>
+<h2 id="designgranskning">Designgranskning</h2>
+<p><strong>Beskrivning:</strong>
+Granska och godkänn planer och dokumentation</p>
+<p><strong>Input:</strong>
+Planer och dokumentation</p>
+<p><strong>Output:</strong>
+Granska kommentarer, Åtgärdspunkter</p>
+<p><strong>Verktygsbehov:</strong>
+Samarbetssystem (ex Office 365)</p>
+<h2 id="versionshanterad-dokumentation">Versionshanterad dokumentation</h2>
+<p><strong>Beskrivning:</strong>
+Spåra designförändringar</p>
+<p><strong>Input:</strong>
+Planer och designdokumentation</p>
+<p><strong>Output:</strong>
+Versionshanterad dokumentation</p>
+<p><strong>Verktygsbehov:</strong>
+Samarbetssystem (ex Office 365)</p></div>
+            </div>
+        </div>
+
+        <footer class="col-md-12">
+            <hr>
+            <p>Documentation built with <a href="https://www.mkdocs.org/">MkDocs</a>.</p>
+        </footer>
+        <script>
+            var base_url = "../..",
+                shortcuts = {"help": 191, "next": 78, "previous": 80, "search": 83};
+        </script>
+        <script src="../../js/base.js" defer></script>
+        <script src="../../search/main.js" defer></script>
+
+        <div class="modal" id="mkdocs_search_modal" tabindex="-1" role="dialog" aria-labelledby="searchModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="searchModalLabel">Search</h4>
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+            </div>
+            <div class="modal-body">
+                <p>From here you can search these documents. Enter your search terms below.</p>
+                <form>
+                    <div class="form-group">
+                        <input type="search" class="form-control" placeholder="Search..." id="mkdocs-search-query" title="Type search term here">
+                    </div>
+                </form>
+                <div id="mkdocs-search-results" data-no-results-text="No results found"></div>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div><div class="modal" id="mkdocs_keyboard_modal" tabindex="-1" role="dialog" aria-labelledby="keyboardModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="keyboardModalLabel">Keyboard Shortcuts</h4>
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+            </div>
+            <div class="modal-body">
+              <table class="table">
+                <thead>
+                  <tr>
+                    <th style="width: 20%;">Keys</th>
+                    <th>Action</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td class="help shortcut"><kbd>?</kbd></td>
+                    <td>Open this help</td>
+                  </tr>
+                  <tr>
+                    <td class="next shortcut"><kbd>n</kbd></td>
+                    <td>Next page</td>
+                  </tr>
+                  <tr>
+                    <td class="prev shortcut"><kbd>p</kbd></td>
+                    <td>Previous page</td>
+                  </tr>
+                  <tr>
+                    <td class="search shortcut"><kbd>s</kbd></td>
+                    <td>Search</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div>
+
+    </body>
+</html>
